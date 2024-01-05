@@ -22,6 +22,11 @@ header div {
      grid-template-columns: auto 1fr;
 }
 
+header img {
+     padding: 10px;
+     border-radius: 30px;
+}
+
 nav {
      background: #ffe3b3;
 }
@@ -32,19 +37,21 @@ nav ul {
      margin: 0;
      padding: 0;
      height: 100%;
-     align-items: baseline;
+     align-content: center;
      justify-content: center;
 }
 
-nav ul li{
+nav ul li {
      height: 40px;
+     text-align: center;
+     display: flex;
+     align-items: center;
 }
 
 header ul a {
      text-decoration: none;
      color: #5f731c;
      font-weight: 700;
-     height: 100%;
      padding: 0px 25px;
 }
 
@@ -52,20 +59,33 @@ header ul li:hover {
      background: #ffb433;
 }
 
-.active{
+.active {
      background: #ffbe4d;
-}
-
-header img {
-     padding: 5px;
-     border-radius: 30px;
 }
 
 .grid {
      display: grid;
-     grid-template-columns: auto 1fr;
+     grid-template-columns: 3fr 1fr;
 }
 
 h2 {
      color: #e49101;
+}
+
+img {
+     padding-top: 0.83em;
+}
+
+.sheets {
+     display: flex;
+     justify-content: start;
+     gap: 50px;
+}
+
+.alfred-content {
+     display: flex;
+}
+
+.alfred p {
+     background: ;
 }
