@@ -3,12 +3,14 @@ body {
      margin: 0;
      box-sizing: border-box;
      min-height: 100vh;
+     background: #fff6e6;
 }
 
 .container {
      width: 95vw;
      max-width: 71.25rem;
      margin: auto;
+     padding-top: 15px;
 }
 header {
      background: #a5bc6a;
@@ -20,6 +22,10 @@ header {
 header div {
      display: grid;
      grid-template-columns: auto 1fr;
+}
+
+header h1 {
+     font-size: 3rem;
 }
 
 header img {
@@ -68,6 +74,38 @@ header ul li:hover {
      grid-template-columns: 3fr 1fr;
 }
 
+.grid-4 {
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+}
+
+.grid-4 img {
+     padding-top: 0;
+} 
+
+.grid-4 div {
+     display: grid;
+     grid-template-rows: 3fr 2fr 2fr;
+     border-radius: 15px;
+     justify-self: center;
+     padding: 15px;
+}
+.escape-game {
+     background: #6f9c3d;
+}
+
+.first {
+     background: #fea002;
+}
+
+.second {
+     background: #e22d02;
+}
+
+.third {
+     background: #a5bc6a;
+}
 h2 {
      color: #e49101;
 }
@@ -84,8 +122,4 @@ img {
 
 .alfred-content {
      display: flex;
-}
-
-.alfred p {
-     background: ;
 }
