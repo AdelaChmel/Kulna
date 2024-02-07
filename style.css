@@ -19,9 +19,9 @@ header {
      color: #5f731c;
 }
 
-header div {
-     display: grid;
-     grid-template-columns: auto 1fr;
+.logo {
+     display: flex;
+     justify-content: center;
 }
 
 header h1 {
