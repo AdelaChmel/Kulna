@@ -6,6 +6,10 @@ body {
      background: #fff6e6;
 }
 
+p {
+     color: #5f731c;
+}
+
 .container {
      width: 95vw;
      max-width: 71.25rem;
@@ -31,6 +35,7 @@ header h1 {
 header img {
      padding: 10px;
      border-radius: 30px;
+     width: 50px;
 }
 
 nav {
@@ -96,7 +101,7 @@ header ul li:hover {
 }
 
 .first {
-     background: #fea002;
+     background-color: #fea002;
 }
 
 .second {
@@ -105,6 +110,10 @@ header ul li:hover {
 
 .third {
      background: #a5bc6a;
+}
+
+.escape-game p, .first p, .second p, .third p {
+     color: black;
 }
 h2 {
      color: #e49101;
@@ -118,6 +127,17 @@ img {
      display: flex;
      justify-content: start;
      gap: 50px;
+}
+
+.sheet h4 {
+     padding: 20px;
+     border-radius: 15px;
+}
+
+.doc p {
+     padding-top: 20px;
+     margin-bottom: 0;
+     font-weight: bold;
 }
 
 .alfred-content {
