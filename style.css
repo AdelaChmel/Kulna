@@ -10,6 +10,7 @@ p {
      color: #5f731c;
 }
 
+
 .container {
      width: 95vw;
      max-width: 71.25rem;
@@ -88,7 +89,7 @@ header ul li:hover {
 .grid-4 {
      display: flex;
      justify-content: center;
-     gap: 10px;
+     gap: 15px;
 }
 
 .grid-4 img {
@@ -100,7 +101,11 @@ header ul li:hover {
      grid-template-rows: 3fr 2fr 2fr;
      border-radius: 15px;
      justify-self: center;
-     padding: 15px;
+     padding: 35px;
+}
+
+#alfredOnBooks{
+     border-radius: 15px;
 }
 .escape-game {
      background: #6f9c3d;
@@ -148,4 +153,29 @@ img {
 
 .alfred-content {
      display: flex;
+}
+
+.list {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 10px;
+}
+
+.list img {
+     width: 250px;
+     height: 350px;
+     border-radius: 15px;
+}
+
+.form {
+     display: flex;
+     flex-direction: column;
+     align-items: left;
+}
+
+.form input {
+     border-radius: 4px;
+     height: 25px;
+     border: 1px solid #5f731c;
+     background-color: #f6f3ee;
 }
