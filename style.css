@@ -75,10 +75,12 @@ header ul a {
 
 header ul li:hover {
      background: #ffb433;
+     border-radius: 15px;
 }
 
 .active {
      background: #ffbe4d;
+     border-radius: 15px;
 }
 
 .grid {
@@ -92,22 +94,22 @@ header ul li:hover {
      gap: 15px;
 }
 
-.grid-4 img {
-     padding-top: 0;
-} 
-
-.grid-4 div {
+.escape-game div {
      display: grid;
      grid-template-rows: 3fr 2fr 2fr;
      border-radius: 15px;
      justify-self: center;
-     padding: 35px;
+     padding: 20px 35px 35px 35px;
+}
+
+.escape-game a {
+     color:#3b3b3b;
 }
 
 #alfredOnBooks{
      border-radius: 15px;
 }
-.escape-game {
+.category-1 {
      background: #6f9c3d;
 }
 
